@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoteMaker</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <!-- //navbar -->
+    <div class="navbar">
+        <div id="right">
+            <div id='title'>NoteMaker</div>
+            <div id="home">home</div>
+        </div>
+        <div id="inputry">
+            <input type="text" placeholder="search notes" id="box">
+            <button id="srch-btn">search</button>
+        </div>
+    </div>
+    <!-- //note input -->
+    <div class="notediv">
+        <label for="notemaker">
+            <h2>Add a note</h2>
+        </label>
+        <textarea name="notemaker" id="notemaker" cols="70" rows="6" placeholder="Add context here">Notes Here
+        </textarea>
+        <button class="deletenode" id="addnote">Add Note</button>
+    </div>
+    <!-- //view notes -->
+    <div class="noteviewer">
+        <h3>Your Notes</h3>
+        <div id="main-grid">
+            <!-- <div class="child">
+                <h5>Note. ${elem+1}</h5>
+                <p>${elem}</p>
+                <button class="deletenode" id="${index}" onclick="deletenode(this.node)">Delete Node</button>
+            </div> -->
+
+        </div>
+    </div>
+</body>
+<script src="ap.js"></script>
+
+</html>
